@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width:100vw;
+    overflow: scroll;
+    background: "whitesmoke";
+}
+
+nav.navbar.navbar-expand-sm.bg-light.navbar-light {
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  background: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.nav-item{
+  padding-right: 10px;
+}
+
+.cardImageContainer{
+  height: 300px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.cardImage {
+  height: 100%;
+  width: 100%;
+}
+
+.cardImage > div:nth-child(2) {
+  margin-top: 27px !important;
+}
+
+.cardImage > div:nth-child(2) button {
+  padding: 16px 35px !important;
+  color: white !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.cardImage > div:nth-child(2) button:nth-child(1) {
+  background-color: #f44336 !important;
+}
+
+.cardImage > div:nth-child(2) button:nth-child(2) {
+  background-color: #4CAF50 !important;
+}
+
+.cardImage > div:nth-child(3) {
+  height: 290px !important;
+}
+.cardImage > div:nth-child(1) div {
+  height: 290px !important;
+}
+.cardImage img{
+  border-radius : 5px;
+  height: 100%;
+  width: 100%;
+}
+  
+#root > div > div {
+    padding: 5px;
+    background-color: white;
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    will-change: transform;
+    border-radius: 10px;
+    box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+      0 10px 10px -10px rgba(50, 50, 73, 0.3);
+}
+  
+img {
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.appStyles {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  overflow: "hidden";
+}
+
+.wrapperStyles{
+  position: relative;
+}
+
+.actionsStyles{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12;
+}

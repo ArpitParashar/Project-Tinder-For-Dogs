@@ -1,0 +1,13 @@
+.cardStyles {
+    background: whitesmoke;
+    border-radius: 3px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+  }
